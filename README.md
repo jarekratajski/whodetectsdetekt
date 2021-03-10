@@ -1,5 +1,9 @@
 # whodetectsdetekt
 
+UPDATE:
+seems - this I just did not read enough of documentation.
+Rechecking.
+
 Demonstrates problem with detekt 
 just run
 ./gradlew detekt
@@ -30,6 +34,8 @@ methods: ['kotlin.io.println', 'kotlin.io.print']
 ```
 
 spaces around operators`x==NUM2`
+UPDATE: this works after addind:
+detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.16.0-RC3")
 
 as this is active as well
 ```
