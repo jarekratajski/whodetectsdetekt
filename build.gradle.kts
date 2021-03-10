@@ -13,7 +13,9 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.16.0-RC3")
 }
+
 detekt {
     config = files("config/detekt/detekt.yml")
     debug = false
