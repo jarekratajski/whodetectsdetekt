@@ -6,7 +6,7 @@ fun main() {
     if (x<NUM2) {
         println("unexpected")
     }
-    if (x==NUM2) {
+    if (x== NUM2) {
         println("unexpected")
     }
 }
