@@ -8,6 +8,9 @@ Demonstrates problem with detekt
 just run
 ./gradlew detekt
 
+UPDATE:
+problems solved running  - detectMain and adding plugin
+
 I have simple code: 
 ```
 fun main() {
@@ -24,6 +27,10 @@ fun main() {
 
 I expect few issues to be reported:
 `println `
+
+UPDATE:
+it is reporting issue if 
+`./gradlew detectMain` is executed
 
 as config below states
 
